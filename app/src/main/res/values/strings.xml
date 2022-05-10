@@ -1,0 +1,113 @@
+<resources>
+
+    <string name="app_name">Gemzawy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">complaints</string>
+    <string name="menu_home">Games</string>
+    <string name="menu_gallery">Coins</string>
+    <string name="menu_slideshow">My Competitions</string>
+    <string name="current">My Current Fifa Matches</string>
+    <string name="payment_method">Do you want to use your coins to pay ? </string>
+    <string name="payment_method_with_card">No i prefer to pay using my credit card Or Paypal</string>
+    <string name="play_id_note">It is important to add correct Playstation ID because it is the way to get contact with your competitor </string>
+    <string name="add_payment_metho">Add Payment Info</string>
+    <string name="menu_tools">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Server_ip">https://gemzawy.com/webservice/api.asmx/</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="choose_game">Choose Game</string>
+    <string name="accept_privacy_policy">Accept privacy Policy</string>
+    <string name="privacy_policy">privacy Policy</string>
+    <string name="game_start">Game started You can not subscribe</string>
+
+    <string name="privacy_policy_continue_bu">Continue to Registration Page</string>
+    <string name="confirm_win">Are you sure you win? Remember that claiming to win may cause permanent denial of application</string>
+    <string name="new_ver">There is a new version in Playstore would you like to download the newest version now ?</string>
+    <string name="forget_password">forget your password?</string>
+    <string name="dont_have_account">Do not have an account?</string>
+    <string name="pubg_claim">the competitors claimed that they won on the competition if that is not correct please go ahead and make complain</string>
+    <string name="competator_claim">The competitor claimed that he has been won in the game . if that is not correct please go ahead and make complain</string>
+    <string name="username">Username</string>
+    <string name="country">Country</string>
+    <string name="phone">Phone</string>
+    <string name="city">City</string>
+    <string name="register">Register</string>
+    <string name="send">Send</string>
+    <string name="sure">Are You Sure press back to cnacel ? </string>
+    <string name="share_text">Download Gemzawi App and Enjoy your Time</string>
+    <string name="logout">Logout</string>
+    <string name="free">Free</string>
+    <string name="game_rules">Game Rules</string>
+    <string name="game_rules_bu">Press here to show the Rules</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribe_check_true">subscribed </string>
+    <string name="enter_number_of_wanter_coins">Enter Coins quantity</string>
+    <string name="buy">Buy</string>
+    <string name="ensure">Complete purchase </string>
+    <string name="get_competator_info">Get competator info</string>
+    <string name="competator_id">Competator Playstation ID is : </string>
+    <string name="get_in_touch">Get in touch with competator using whatsapp</string>
+    <string name="attach">attach photo</string>
+    <string name="win">I win</string>
+    <string name="finish">Finish the game</string>
+    <string name="write_your_complaints">Enter your Complaint</string>
+    <string name="complaints_menu">Complaints</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="fifa_noti_active">Active Fifa Notification</string>
+    <string name="Pubg_noti_active">Active Pubg Notification</string>
+    <string name="all_noti_active">Active Public Notification</string>
+    <string name="payment_warning">(the information below would be your way to receive the rewards please make sure you enter it correctly)</string>
+    <string name="notification_warning">(In case you chose to turn the notification off there would be good chance to miss the competiton or get lose in it and we would not be resposable for that)</string>
+    <string name="current_pass">Current Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_new_pass">Confirm new password</string>
+    <string name="current_balance">Your Current Balance is :</string>
+    <string name="check">check</string>
+    <string name="prefer_way">How do you prefer to receive your money</string>
+    <string name="press_here_for_status">Press here to get your request payments status</string>
+    <string name="date">Date</string>
+    <string name="coins_number">Coins Number</string>
+    <string name="Status">Status</string>
+    <string name="Pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="add_playstation_id">Add Playstation ID</string>
+    <string name="add_Pubg_id">Add Pubg ID</string>
+    <string name="pubg_id_hint">(please Enter the ID (numbers) shown in your Pubg account)</string>
+    <string name="photo_example">Example </string>
+    <string name="pubg_photo_hint">please attach the photo exactly the same of the photo below</string>
+    <string name="competition_is_full">Sorry the Compettion is Full</string>
+    <string name="complaints">Tell us about your complaint</string>
+    <string name="confirm_payment">Confirm Payment</string>
+    <string name="another_payment_method">Do you need another way to pay please contact us on Gemzawy.com@gmail.com</string>
+    <string name="add_play_id_note">Please Add Playstation ID from Setting</string>
+    <string name="add_pubg_id_note">Please Add Pubg ID from Setting</string>
+<string name="p_k">pk_live_pskQf22Eyt4FEhI7ulwrJR5L00VykWA24q</string>
+
+    <array name="staticText1Elements">
+        <item>Profile</item>
+        <item>Notifications</item>
+        <item>Add Playstation Id</item>
+        <item>Add Pubg Id</item>
+        <item>Awards Information</item>
+        <item>Change Password</item>
+        <item>Request Payment</item>
+        <item>Change Language</item>
+
+    </array>
+
+</resources>

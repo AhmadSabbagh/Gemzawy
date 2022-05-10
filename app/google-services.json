@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "512814193305",
+    "firebase_url": "https://gemzawi-7af34.firebaseio.com",
+    "project_id": "gemzawi-7af34",
+    "storage_bucket": "gemzawi-7af34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512814193305:android:45db87af7754d47c627608",
+        "android_client_info": {
+          "package_name": "com.am.gemzawy.fifa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512814193305-iamv1r6c5bra41u3v3n60bcfkma72p7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.am.gemzawy.fifa",
+            "certificate_hash": "5047ff8192d9201c3e5ca4b991d8cca77b79dee5"
+          }
+        },
+        {
+          "client_id": "512814193305-f2bt6fj3bbos8oq6vtlq1ja2e5jvm1lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfrJB8owilXJIhsUhAjy2KX2yzaFONIvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512814193305-f2bt6fj3bbos8oq6vtlq1ja2e5jvm1lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

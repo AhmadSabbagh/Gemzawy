@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gemzawy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الشكاوي</string>
+    <string name="menu_home">الألعاب</string>
+    <string name="menu_gallery">الكوينز</string>
+    <string name="menu_slideshow">مسابقاتي</string>
+    <string name="menu_tools">الاعدادات</string>
+    <string name="menu_share">مشاركة التطبيق</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="prompt_email">البريد الالكتروني</string>
+    <string name="prompt_password">كلمة السر</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Server_ip">http://95.217.146.96/webservice/api.asmx/</string>
+    <string name="game_start">اللعبة بدأت بالفعل لا يمكنك الاشتراك </string>
+    <string name="sure">هل انت متاكد ؟ اضغط زر الرجوع للالغاء</string>
+    <string name="share_text">حمل تطبيق جيمزاوي من المتجر واستمتع باجمل الالعاب</string>
+    <string name="p_k">pk_live_pskQf22Eyt4FEhI7ulwrJR5L00VykWA24q</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="accept_privacy_policy">اوافق على ساسية الخصوصية</string>
+    <string name="privacy_policy">سياسية الخصوصية</string>
+    <string name="privacy_policy_continue_bu">تابع الى صفحة التسجيل</string>
+    <string name="add_play_id_note">الرجاء اضافة معرف البليستيشن من الاعدادات</string>
+    <string name="add_pubg_id_note">الرجاء اضافة معرف الببجي من الاعدادات</string>
+    <string name="forget_password">هل نسيت كلمة السر ؟</string>
+    <string name="dont_have_account">ليس لديك حساب؟</string>
+    <string name="competator_claim">لقد قام الخصم باعلان فوزه ان كنت تعتقد ان هذا خطا يرجى الاعتراض على هذا عبر الشكاوي</string>
+    <string name="pubg_claim">لقد قام المنافسون باعلان فوزهم ان كنت ترى ان هذا غير صحيح اذهب للشكاوي حالا</string>
+    <string name="new_ver">يتوفر اصدار احدث في المتجر هل تريد التحديث الآن؟</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="country">الدولة</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="city">المدينة</string>
+    <string name="register">تسجيل</string>
+    <string name="send">ارسال</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="free">مجانية</string>
+    <string name="game_rules">قوانين اللعبة</string>
+    <string name="game_rules_bu">اضغط هنا لمشاهدة القوانين</string>
+    <string name="subscribe">اشتراك</string>
+    <string name="subscribe_check_true">أنت مشترك في هذه المسابقة</string>
+    <string name="enter_number_of_wanter_coins">ادخل عدد الكوينز</string>
+    <string name="buy">شراء</string>
+    <string name="ensure">تأكيد الدفعة </string>
+    <string name="get_competator_info">اضغط هنا لمشاهدة معلومات الخصم</string>
+    <string name="finish">انهاء اللعبة</string>
+    <string name="competator_id">معرف ال فيفا للمنافس  </string>
+    <string name="get_in_touch">تواصل مع الشخص عبر الواتس اب</string>
+    <string name="attach">ارفاق صورة</string>
+    <string name="win">أنا فزت</string>
+    <string name="write_your_complaints">أدخل شكواك</string>
+    <string name="edit">تعديل</string>
+    <string name="add_payment_metho">اضافة طريقة دفع</string>
+    <string name="confirm_win">هل انت متاكد من فوزك تذكر ان الادعاء بالفوز قد يسبب الحرمان بشكل دائم من التطبيق</string>
+    <string name="save">حفظ</string>
+    <string name="fifa_noti_active">تفعيل اشعارات الفيفا</string>
+    <string name="Pubg_noti_active">تفعيل اشعارات الببجي</string>
+    <string name="all_noti_active">تفعيل الاشعارات العامة</string>
+    <string name="notification_warning">(في حال عدم تفعيلك الاشعارات لاي لعبة ستكون هناك احتمالية لغيابك عن المنافسة وخسرانك فيها ولن يكون التطبيق مسؤول عن ذلك)</string>
+    <string name="current_pass">كلمة المرور الحالية</string>
+    <string name="new_pass">كلمة المرور الجديدة</string>
+    <string name="confirm_new_pass">تأكيد كلمة المرور الجديدة</string>
+    <string name="current_balance">رصيدك الحالي هو </string>
+    <string name="check">تحقق</string>
+    <string name="prefer_way">كيف تفضل استلام ارباحك</string>
+    <string name="press_here_for_status">اضغط هنا لمشاهدة حالات طلباتك</string>
+    <string name="date">التاريخ</string>
+    <string name="another_payment_method">للدفع بوسائل اخرى راسلنا على : Gemzawy.com@gmail.com</string>
+    <string name="coins_number">عدد الكوينز</string>
+    <string name="Status">الحالة</string>
+    <string name="Pending">معلقة</string>
+    <string name="completed">مكتملة</string>
+    <string name="choose_game">أختر اللعبة</string>
+    <string name="payment_warning">(سيكون هذه المعلومات هي المعلومات اللازمة لارسال العوائد المالية من المسابقات  تاكد من كتابتها بشكل صحيح والا لن نكون مسؤولين عن اي خطأ)</string>
+    <string name="add_playstation_id">اضافة معرف playstation</string>
+    <string name="add_Pubg_id">اضافة معرف لعبة Pubg</string>
+    <string name="pubg_id_hint">(ادخل الأي دي المكون من ارقام فقط في حسابك في اللعبة)</string>
+    <string name="photo_example">مثال </string>
+    <string name="pubg_photo_hint">(الرجاء الانتباه يجب عليك رفع صورة كالصورة التالية  كرقم تعريف)</string>
+    <string name="competition_is_full">نعتذر العدد مكتمل</string>
+    <string name="complaints">ادخل الشكوى</string>
+    <string name="current">مباريات الفيفا الحالية</string>
+    <string name="complaints_menu">الشكاوي</string>
+    <string name="confirm_payment">تأكيد عملية الدفع</string>
+    <string name="payment_method">هل تريد استخدام ال كوينز في محفظتك للدفع ?</string>
+    <string name="payment_method_with_card">لا افضل ان ادفع باستخدام بطاقتي الائتمانية او البي بال</string>
+<string name="play_id_note">هام جدا الرجاء اضافة رقم معرف صحيح لانها الطريقة التي سيقوم من خلالها الخصم بالتواصل معك </string>
+
+    <array name="staticText1Elements">
+        <item>الملف الشخصي</item>
+        <item>الاشعارات</item>
+        <item>اضافة معرف لعبة ال Fifa</item>
+        <item>اضافة معرف لعبة ال Pubg</item>
+        <item>معلومات استلام الارباح</item>
+        <item>تغير كلمة السر</item>
+        <item>طلب الدفع</item>
+        <item>تغير اللغة</item>
+
+    </array>
+</resources>

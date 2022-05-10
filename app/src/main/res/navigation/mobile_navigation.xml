@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.am.gemzawy.fifa.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.am.gemzawy.fifa.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.am.gemzawy.fifa.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.am.gemzawy.fifa.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.am.gemzawy.fifa.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.am.gemzawy.fifa.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/playstation_id"
+        android:name="com.am.gemzawy.fifa.ui.playstation_id.PlaystationId_Fragment"
+        android:label="Add Playstation Id"
+        tools:layout="@layout/fragment_playastation_id" />
+    <fragment
+        android:id="@+id/nav_matches"
+        android:name="com.am.gemzawy.fifa.ui.matches.MatchesFragment"
+        android:label="@string/current"
+        tools:layout="@layout/fragment_matches" />
+    <fragment
+        android:id="@+id/nav_complain"
+        android:name="com.am.gemzawy.fifa.ui.complain.Complains"
+        android:label="@string/complaints_menu"
+        tools:layout="@layout/complain" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.am.gemzawy.fifa.ui.logout.Log_Out"
+        android:label="@string/logout"
+        tools:layout="@layout/logout" />
+
+</navigation>

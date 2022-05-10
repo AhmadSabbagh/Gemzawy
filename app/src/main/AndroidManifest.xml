@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.am.gemzawy.fifa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_logo3"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_logo3"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:supportsRtl">
+        <service
+            android:name="com.am.gemzawy.fifa.Services.PaymentNotificationIntentService"
+            android:exported="false">
+
+        </service>
+
+        <activity android:name="com.am.gemzawy.fifa.Payments.PaymentTransparentActivity" />
+        <activity android:name="com.am.gemzawy.fifa.Payments.CheckoutActivity" />
+        <activity android:name="com.am.gemzawy.fifa.Language_chooser_Settings" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Payment_list_status"
+            android:exported="true" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Payout"
+            android:exported="true" />
+        <activity android:name="com.am.gemzawy.fifa.Full_Screen_Pubg_Photo" />
+        <activity android:name="com.am.gemzawy.fifa.Language_Chooser" />
+        <activity android:name="com.am.gemzawy.fifa.ForgetPassword" />
+        <activity android:name="com.am.gemzawy.fifa.Add_EmailID" />
+        <activity android:name="com.am.gemzawy.fifa.Add_PubgID" />
+        <activity android:name="com.am.gemzawy.fifa.Add_FifaID" />
+        <activity android:name="com.am.gemzawy.fifa.NotificationControlPage" />
+        <activity android:name="com.am.gemzawy.fifa.EditProfile" />
+        <activity
+            android:name="com.am.gemzawy.fifa.SettingsList"
+            android:exported="true" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Notification_Page"
+            android:enabled="true"
+            android:exported="true" />
+        <activity android:name="com.am.gemzawy.fifa.MyCompetitions_List" />
+        <activity android:name="com.am.gemzawy.fifa.Pubg_Free_Competition_Details" />
+        <activity
+            android:name="com.am.gemzawy.fifa.ChangePass"
+            android:exported="true" />
+        <activity android:name="com.am.gemzawy.fifa.CompetatorId" />
+        <activity android:name="com.am.gemzawy.fifa.My_Competition_Details" />
+        <activity android:name="com.am.gemzawy.fifa.Payment_choice" />
+        <activity android:name="com.am.gemzawy.fifa.Payments.Paytm" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Payments.BrainTreePayment"
+            android:exported="true" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Payments.StripePayments"
+            android:exported="true" />
+        <activity
+            android:name="com.am.gemzawy.fifa.MatchScreenFinish"
+            android:exported="true" />
+        <activity
+            android:name="com.am.gemzawy.fifa.ui.login.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Free_Competition_Details"
+            android:exported="true" />
+        <activity android:name="com.am.gemzawy.fifa.Fifa_Competitions" />
+        <activity android:name="com.am.gemzawy.fifa.Pubg_Competitions" />
+        <activity
+            android:name="com.am.gemzawy.fifa.Register_Page"
+            android:exported="true" />
+        <activity android:name="com.am.gemzawy.fifa.Privacy_Policy" />
+        <activity android:name="com.am.gemzawy.fifa.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.am.gemzawy.fifa.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="${applicationId}.braintree" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.am.gemzawy.fifa.Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="preloaded_fonts"
+
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>
